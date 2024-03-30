@@ -1,0 +1,117 @@
+#navbar{
+    border-bottom: 5px solid #ffc400;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.521);
+    z-index: 1000;
+}
+
+#logo{
+    font-family: "Parisienne", cursive;
+    font-weight: 900;
+    font-size: 2em;
+    color: #e7b100;
+}
+
+#navbar a:hover{
+    border-bottom: 5px solid #ffc400;
+}
+
+#navbar .active{
+    color: #e7b100 !important;
+    border-bottom: 5px solid #ffc400;
+}
+
+#instrumentos h1{
+    font-family: "Parisienne", cursive;
+    font-weight: 900;
+}
+
+#nav-instrumentos button{
+    color: #444444;
+    font-weight: 400;
+}
+
+#nav-instrumentos .active{
+    color: #e7b100;
+    font-weight: 900;
+}
+
+.card{
+    cursor: pointer;
+    width: 300px;
+    transition: all 400ms;
+    margin-bottom: 30px;
+}
+
+.card h5{
+    font-family: "Parisienne", cursive;
+    font-weight: 800;
+}
+
+.card:hover{
+    transform: scale(1.03, 1.03);
+    box-shadow: 0 0 10px #33333331;
+}
+
+.card a{
+    color: #e7b100;
+    display: block;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card img{
+    width: 92px;
+    height: 100% !important;
+}
+
+#sobre{
+    margin: 30px 0;
+    background-color: #f0b800;
+    padding: 50px;
+    color: white;
+}
+
+#sobre img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+form button{
+    color: white !important;
+    background-color: #f5bc00 !important;
+}
+
+footer{
+    background-color: #e7b100;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+footer h3{
+    font-family: "Parisienne", cursive;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    #sobre h1{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #sobre h1{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #nav-items{
+        gap: 30px;
+    }
+}
